@@ -1,4 +1,4 @@
-# postcss-with-gulp 
+# postcss-with-gulp
 
 A short visual tutorial on adding Postcss to your gulp tasks.
 
@@ -7,7 +7,7 @@ A short visual tutorial on adding Postcss to your gulp tasks.
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
 ```sh
-npm install postcss-with-gulp --save
+npm install
 ```
 
 
