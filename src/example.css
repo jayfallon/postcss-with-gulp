@@ -1,0 +1,30 @@
+:root {
+  --fontSize: 1rem;
+}
+
+body {
+  background: #9d9c;
+}
+
+div.header {
+  display: flex;
+
+  & h1 {
+    font-size: calc(var(--fontSize) * 2);
+
+    & a {
+      color: rebeccapurple;
+    }
+    & a:hover {
+      color: color(red blackness(80%));
+    }
+  }
+}
+
+h2 {
+  font-variant-caps: small-caps;
+}
+
+table {
+  font-variant-numeric: lining-nums;
+}
