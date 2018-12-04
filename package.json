@@ -4,7 +4,9 @@
   "description": "A short visual tutorial on adding Postcss to your gulp tasks.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "gulp",
@@ -14,8 +16,10 @@
   "license": "MIT",
   "dependencies": {
     "cssnano": "^3.8.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-postcss": "^6.2.0",
-    "postcss-cssnext": "^2.8.0"
-  }
+    "postcss-cssnext": "^2.8.0",
+    "snyk": "^1.113.0"
+  },
+  "snyk": true
 }
