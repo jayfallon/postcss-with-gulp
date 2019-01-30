@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "cssnano": "^3.8.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-postcss": "^6.2.0",
     "postcss-cssnext": "^2.8.0"
   }
